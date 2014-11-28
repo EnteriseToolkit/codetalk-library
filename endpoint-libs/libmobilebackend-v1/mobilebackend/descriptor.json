@@ -1,39 +1,27 @@
 {
   "files": [
     {
-      "downloadUrl": "/downloads/mobilebackend/v1/20131016182904/java/1.15.0-rc/google.com-mobilebackend-v1-20131016182904-java-1.15.0-rc-sources.jar", 
-      "path": "google.com-mobilebackend-v1-20131016182904-java-1.15.0-rc-sources.jar", 
-      "type": "source", 
-      "timestamp": "2013-10-16 18:29"
+      "path": "gcp-test-mobilebackend-v1-20130328053901-java-1.14.1-beta-sources.jar", 
+      "type": "source"
     }, 
     {
-      "path": "google.com-mobilebackend-v1-20131016182904-java-1.15.0-rc.jar.properties", 
+      "path": "gcp-test-mobilebackend-v1-20130328053901-java-1.14.1-beta.jar.properties", 
       "type": "android.properties"
     }
   ], 
-  "proguard-config": "proguard-google-api-client.txt", 
-  "ownerDomain": "google.com", 
-  "moduleName": "com.google.cloud.backend.android", 
-  "name": "mobilebackend", 
-  "language": "java", 
-  "title": "mobilebackend", 
-  "version": "v1", 
   "kind": "discovery#directoryItem", 
-  "modulePath": "com/google/cloud/backend/android", 
-  "maven": {
-    "group_id": "com.google.apis", 
-    "artifact_id": "google-api-services-cloud-backend-android-mobilebackend", 
-    "version": "v1-rev20131016182904-1.15.0-rc"
-  }, 
+  "version": "v1", 
+  "language": "java", 
+  "proguard-config": "proguard-google-api-client.txt", 
   "dependencies": [
     {
       "files": [
         {
-          "downloadUrl": "http://google-api-java-client.googlecode.com/files/google-api-java-client-1.15.0-rc.zip", 
+          "downloadUrl": "http://google-api-java-client.googlecode.com/files/google-api-java-client-1.14.1-beta.zip", 
           "type": "bundle"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Google API Java Client Bundle", 
       "environments": [
         "manual"
@@ -42,11 +30,11 @@
     {
       "files": [
         {
-          "path": "libs/google-api-client-1.15.0-rc.jar", 
+          "path": "libs/google-api-client-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-api-client-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-api-client-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -54,11 +42,11 @@
           "type": "license"
         }, 
         {
-          "path": "libs/google-api-client-1.15.0-rc.jar.properties", 
+          "path": "libs/google-api-client-1.14.1-beta.jar.properties", 
           "type": "android-properties"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Google APIs Client Library", 
       "environments": [
         "*"
@@ -67,11 +55,11 @@
     {
       "files": [
         {
-          "path": "libs/google-api-client-android-1.15.0-rc.jar", 
+          "path": "libs/google-api-client-android-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-api-client-android-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-api-client-android-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -79,11 +67,11 @@
           "type": "license"
         }, 
         {
-          "path": "libs/google-api-client-android-1.15.0-rc.jar.properties", 
+          "path": "libs/google-api-client-android-1.14.1-beta.jar.properties", 
           "type": "android-properties"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Android platform extensions to the Google APIs Client Library", 
       "environments": [
         "android"
@@ -92,11 +80,11 @@
     {
       "files": [
         {
-          "path": "libs/google-api-client-appengine-1.15.0-rc.jar", 
+          "path": "libs/google-api-client-appengine-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-api-client-appengine-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-api-client-appengine-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -104,7 +92,7 @@
           "type": "license"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Google App Engine extensions to the Google APIs Client Library", 
       "environments": [
         "appengine"
@@ -113,11 +101,11 @@
     {
       "files": [
         {
-          "path": "libs/google-api-client-java6-1.15.0-rc.jar", 
+          "path": "libs/google-api-client-java6-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-api-client-java6-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-api-client-java6-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -125,7 +113,7 @@
           "type": "license"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Java 6 (and higher) extensions to the Google APIs Client Library", 
       "environments": [
         "generic"
@@ -134,11 +122,11 @@
     {
       "files": [
         {
-          "path": "libs/google-api-client-servlet-1.15.0-rc.jar", 
+          "path": "libs/google-api-client-servlet-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-api-client-servlet-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-api-client-servlet-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -146,7 +134,7 @@
           "type": "license"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Servlet extensions to the Google APIs Client Library", 
       "environments": [
         "appengine", 
@@ -156,11 +144,11 @@
     {
       "files": [
         {
-          "path": "libs/google-oauth-client-1.15.0-rc.jar", 
+          "path": "libs/google-oauth-client-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-oauth-client-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-oauth-client-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -168,11 +156,11 @@
           "type": "license"
         }, 
         {
-          "path": "libs/google-oauth-client-1.15.0-rc.jar.properties", 
+          "path": "libs/google-oauth-client-1.14.1-beta.jar.properties", 
           "type": "android-properties"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Google OAuth Client Library", 
       "environments": [
         "*"
@@ -181,11 +169,11 @@
     {
       "files": [
         {
-          "path": "libs/google-oauth-client-appengine-1.15.0-rc.jar", 
+          "path": "libs/google-oauth-client-appengine-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-oauth-client-appengine-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-oauth-client-appengine-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -193,7 +181,7 @@
           "type": "license"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Google App Engine extensions to the Google OAuth Client Library", 
       "environments": [
         "appengine"
@@ -202,11 +190,11 @@
     {
       "files": [
         {
-          "path": "libs/google-oauth-client-java6-1.15.0-rc.jar", 
+          "path": "libs/google-oauth-client-java6-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-oauth-client-java6-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-oauth-client-java6-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -214,7 +202,7 @@
           "type": "license"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Java 6 (and higher) extensions to the Google OAuth Client Library", 
       "environments": [
         "generic"
@@ -223,11 +211,11 @@
     {
       "files": [
         {
-          "path": "libs/google-oauth-client-java7-1.15.0-rc.jar", 
+          "path": "libs/google-oauth-client-java7-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-oauth-client-java7-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-oauth-client-java7-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -235,7 +223,7 @@
           "type": "license"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Java 7 (and higher) extensions to the Google OAuth Client Library", 
       "environments": [
         "generic"
@@ -244,11 +232,11 @@
     {
       "files": [
         {
-          "path": "libs/google-oauth-client-jetty-1.15.0-rc.jar", 
+          "path": "libs/google-oauth-client-jetty-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-oauth-client-jetty-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-oauth-client-jetty-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -256,7 +244,7 @@
           "type": "license"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Jetty extensions to the Google OAuth Client Library", 
       "environments": [
         "generic"
@@ -265,11 +253,11 @@
     {
       "files": [
         {
-          "path": "libs/google-oauth-client-servlet-1.15.0-rc.jar", 
+          "path": "libs/google-oauth-client-servlet-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-oauth-client-servlet-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-oauth-client-servlet-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -277,7 +265,7 @@
           "type": "license"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Servlet and JDO extensions to the Google OAuth Client Library", 
       "environments": [
         "appengine", 
@@ -287,11 +275,11 @@
     {
       "files": [
         {
-          "path": "libs/google-http-client-1.15.0-rc.jar", 
+          "path": "libs/google-http-client-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-http-client-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-http-client-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -299,11 +287,11 @@
           "type": "license"
         }, 
         {
-          "path": "libs/google-http-client-1.15.0-rc.jar.properties", 
+          "path": "libs/google-http-client-1.14.1-beta.jar.properties", 
           "type": "android-properties"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Google HTTP Client Library", 
       "environments": [
         "*"
@@ -312,11 +300,11 @@
     {
       "files": [
         {
-          "path": "libs/google-http-client-android-1.15.0-rc.jar", 
+          "path": "libs/google-http-client-android-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-http-client-android-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-http-client-android-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -324,11 +312,11 @@
           "type": "license"
         }, 
         {
-          "path": "libs/google-http-client-android-1.15.0-rc.jar.properties", 
+          "path": "libs/google-http-client-android-1.14.1-beta.jar.properties", 
           "type": "android-properties"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Android platform extensions to the Google HTTP Client Library", 
       "environments": [
         "android"
@@ -337,11 +325,11 @@
     {
       "files": [
         {
-          "path": "libs/google-http-client-appengine-1.15.0-rc.jar", 
+          "path": "libs/google-http-client-appengine-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-http-client-appengine-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-http-client-appengine-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -349,7 +337,7 @@
           "type": "license"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Google App Engine extensions to the Google HTTP Client Library", 
       "environments": [
         "appengine"
@@ -358,11 +346,11 @@
     {
       "files": [
         {
-          "path": "libs/google-http-client-gson-1.15.0-rc.jar", 
+          "path": "libs/google-http-client-gson-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-http-client-gson-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-http-client-gson-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -370,11 +358,11 @@
           "type": "license"
         }, 
         {
-          "path": "libs/google-http-client-gson-1.15.0-rc.jar.properties", 
+          "path": "libs/google-http-client-gson-1.14.1-beta.jar.properties", 
           "type": "android-properties"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "GSON extensions to the Google HTTP Client Library", 
       "environments": [
         "*"
@@ -383,11 +371,11 @@
     {
       "files": [
         {
-          "path": "libs/google-http-client-jackson-1.15.0-rc.jar", 
+          "path": "libs/google-http-client-jackson-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-http-client-jackson-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-http-client-jackson-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -395,11 +383,11 @@
           "type": "license"
         }, 
         {
-          "path": "libs/google-http-client-jackson-1.15.0-rc.jar.properties", 
+          "path": "libs/google-http-client-jackson-1.14.1-beta.jar.properties", 
           "type": "android-properties"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Jackson extensions to the Google HTTP Client Library", 
       "environments": [
         "*"
@@ -408,11 +396,11 @@
     {
       "files": [
         {
-          "path": "libs/google-http-client-jackson2-1.15.0-rc.jar", 
+          "path": "libs/google-http-client-jackson2-1.14.1-beta.jar", 
           "type": "binary"
         }, 
         {
-          "path": "libs-sources/google-http-client-jackson2-1.15.0-rc-sources.jar", 
+          "path": "libs-sources/google-http-client-jackson2-1.14.1-beta-sources.jar", 
           "type": "source"
         }, 
         {
@@ -420,11 +408,11 @@
           "type": "license"
         }, 
         {
-          "path": "libs/google-http-client-jackson2-1.15.0-rc.jar.properties", 
+          "path": "libs/google-http-client-jackson2-1.14.1-beta.jar.properties", 
           "type": "android-properties"
         }
       ], 
-      "version": "1.15.0-rc", 
+      "version": "1.14.1-beta", 
       "name": "Jackson 2 extensions to the Google HTTP Client Library", 
       "environments": [
         "*"
@@ -698,9 +686,8 @@
       ]
     }
   ], 
-  "ownerName": "google.com", 
-  "packagePath": "cloud.backend.android", 
-  "language_version": "1.15.0-rc", 
+  "language_version": "1.14.1-beta", 
+  "revision": 20130328053901, 
   "id": "mobilebackend:v1", 
-  "revision": 20131016182904
+  "name": "mobilebackend"
 }

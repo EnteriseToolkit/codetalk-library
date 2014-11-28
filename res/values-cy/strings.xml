@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- barcode scanner items -->
+    <string name="result_type">Math o god: %1$s</string>
+    <string name="result_address_book">Cerdyn cyswllt</string>
+    <string name="result_calendar">Digwyddiad calendr</string>
+    <string name="result_email_address">Cyfeiriad e-bost</string>
+    <string name="result_geo">Cyfesurynnau daearyddol</string>
+    <string name="result_isbn">Archebu</string>
+    <string name="result_product">Cynnyrch</string>
+    <string name="result_sms">SMS cyflym</string>
+    <string name="result_tel">Rhif Ffôn</string>
+    <string name="result_text">Testun</string>
+    <string name="result_uri">URL</string>
+    <string name="result_qrpedia">QRpedia</string>
+    <string name="result_wifi">Ffurfwedd rhwydwaith diwifr</string>
+    <string name="wifi_ssid_label">Enw\'r Rhwydwaith</string>
+    <string name="wifi_type_label">Math</string>
+
+</resources>
